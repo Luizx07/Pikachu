@@ -128,3 +128,52 @@ footer{
     transform: translate(-50%, -50%);
     height: 75vh;
 }
+@media(max-width:960px){
+    body{
+        padding-inline: 32px;
+        padding-bottom: 16px;
+    }
+    main{
+        justify-content:space-between ;
+        align-items: center;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+        gap: 16px;
+    }
+    .description{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    footer{
+        display: none;
+    }
+    .Kupfu-img{
+        height: 50vh;
+    }
+
+}
+@media (max-width:640px){
+    header div{
+        display: none;
+    }
+    .title span{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .description h2{
+        font-size: 36px;
+    }
+    .description p{
+        display: none;
+    }
+    .action{
+        width: 100%;
+    }
+}
